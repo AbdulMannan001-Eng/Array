@@ -1,0 +1,14 @@
+C:\Users\PC\Desktop\ArrayClassWork\bin\Debug\net8.0\ArrayClassWork.exe
+C:\Users\PC\Desktop\ArrayClassWork\bin\Debug\net8.0\ArrayClassWork.deps.json
+C:\Users\PC\Desktop\ArrayClassWork\bin\Debug\net8.0\ArrayClassWork.runtimeconfig.json
+C:\Users\PC\Desktop\ArrayClassWork\bin\Debug\net8.0\ArrayClassWork.dll
+C:\Users\PC\Desktop\ArrayClassWork\bin\Debug\net8.0\ArrayClassWork.pdb
+C:\Users\PC\Desktop\ArrayClassWork\obj\Debug\net8.0\ArrayClassWork.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Desktop\ArrayClassWork\obj\Debug\net8.0\ArrayClassWork.AssemblyInfoInputs.cache
+C:\Users\PC\Desktop\ArrayClassWork\obj\Debug\net8.0\ArrayClassWork.AssemblyInfo.cs
+C:\Users\PC\Desktop\ArrayClassWork\obj\Debug\net8.0\ArrayClassWork.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\ArrayClassWork\obj\Debug\net8.0\ArrayClassWork.dll
+C:\Users\PC\Desktop\ArrayClassWork\obj\Debug\net8.0\refint\ArrayClassWork.dll
+C:\Users\PC\Desktop\ArrayClassWork\obj\Debug\net8.0\ArrayClassWork.pdb
+C:\Users\PC\Desktop\ArrayClassWork\obj\Debug\net8.0\ArrayClassWork.genruntimeconfig.cache
+C:\Users\PC\Desktop\ArrayClassWork\obj\Debug\net8.0\ref\ArrayClassWork.dll
