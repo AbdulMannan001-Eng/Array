@@ -10,25 +10,27 @@ namespace ArrayClassWork
         public int SumArray(int[] arr)
         {
             int sum = 0;
-            foreach (int num in arr)
+            for (int i = 0; i < arr.Length; i++)
             {
-                sum += num;
+                sum += arr[i];
             }
             return sum;
         }
 
+
         public int FindMax(int[] arr)
         {
             int max = arr[0];
-            foreach (int num in arr)
+            for (int i = 1; i < arr.Length; i++)
             {
-                if (num > max)
+                if (arr[i] > max)
                 {
-                    max = num;
+                    max = arr[i];
                 }
             }
             return max;
         }
+
 
         public int[] ReverseArray(int[] arr)
         {
@@ -43,9 +45,9 @@ namespace ArrayClassWork
         public (int even, int odd) CountEvenOdd(int[] arr)
         {
             int even = 0, odd = 0;
-            foreach (int num in arr)
+            for (int i = 0; i < arr.Length; i++)
             {
-                if (num % 2 == 0)
+                if (arr[i] % 2 == 0)
                 {
                     even++;
                 }
@@ -56,6 +58,7 @@ namespace ArrayClassWork
             }
             return (even, odd);
         }
+
 
         public bool IsSorted(int[] arr)
         {
@@ -73,19 +76,22 @@ namespace ArrayClassWork
         {
             List<int> duplicates = new List<int>();
             HashSet<int> seen = new HashSet<int>();
-            foreach (int num in arr)
+
+            for (int i = 0; i < arr.Length; i++)
             {
-                if (seen.Contains(num))
+                if (seen.Contains(arr[i]))
                 {
-                    duplicates.Add(num);
+                    duplicates.Add(arr[i]);
                 }
                 else
                 {
-                    seen.Add(num);
+                    seen.Add(arr[i]);
                 }
             }
+
             return duplicates;
         }
+
 
         public int[] RightShift(int[] arr)
         {
@@ -101,9 +107,9 @@ namespace ArrayClassWork
         public int CountOccurrences(int[] arr, int target)
         {
             int count = 0;
-            foreach (int num in arr)
+            for (int i = 0; i < arr.Length; i++)
             {
-                if (num == target)
+                if (arr[i] == target)
                 {
                     count++;
                 }
@@ -112,7 +118,7 @@ namespace ArrayClassWork
         }
 
 
-        public int[] MergeSortedArrays(int[] arr1, int[] arr2)
+        public int[] SortArrays(int[] arr1, int[] arr2)
         {
             int[] merged = new int[arr1.Length + arr2.Length];
             int i = 0, j = 0, k = 0;
@@ -138,19 +144,20 @@ namespace ArrayClassWork
             return merged;
         }
 
-        public int FindSecondLargest(int[] arr)
+       public int FindSecondLargest(int[] arr)
         {
             int first = int.MinValue, second = int.MinValue;
-            foreach (int num in arr)
+            
+            for (int i = 0; i < arr.Length; i++)
             {
-                if (num > first)
+                if (arr[i] > first)
                 {
                     second = first;
-                    first = num;
+                    first = arr[i];
                 }
-                else if (num > second && num != first)
+                else if (arr[i] > second && arr[i] != first)
                 {
-                    second = num;
+                    second = arr[i];
                 }
             }
             return second;
